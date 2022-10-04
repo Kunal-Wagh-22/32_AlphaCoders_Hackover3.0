@@ -18,3 +18,9 @@ sign_up_btn2.addEventListener("click", () => {
 sign_in_btn2.addEventListener("click", () => {
     container.classList.remove("sign-up-mode2");
 });
+
+if (document.querySelector('.selection').options[3].value == 3) {
+    document.querySelector('.upload').getElementsByClassName.display = 'block';
+} else {
+    document.querySelector('.upload').getElementsByClassName.display = 'none';
+}

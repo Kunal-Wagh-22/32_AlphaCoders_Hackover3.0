@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
-    <link rel="stylesheet" href="/css/sign-up.css">
+    <link rel="stylesheet" href="css/sign-up.css">
     <title>signin-signup</title>
 </head>
 
@@ -23,6 +23,11 @@
                     <i class="fas fa-lock"></i>
                     <input type="password" placeholder="Password">
                 </div>
+                <select class="form-select input-field" aria-label="Default select example">
+                    <option selected value="1">Customer</option>
+                    <option value="2">Organizer</option>
+                    <option class="selected" value="3">Admin</option>
+                </select>
                 <input type="submit" value="Login" class="btn">
                 <p class="social-text">Or Sign in with social platform</p>
                 <div class="social-media">
@@ -55,6 +60,13 @@
                     <i class="fas fa-lock"></i>
                     <input type="password" placeholder="Password">
                 </div>
+
+                <select class="form-select input-field selection" aria-label="Default select example">
+                    <option selected value="1">Customer</option>
+                    <option value="2">Organizer</option>
+                    <option class="selected" value="3">Admin</option>
+                </select>
+                <input type="file" class="form-control-file if-admin upload" id="AdminControlFile1">
                 <input type="submit" value="Sign up" class="btn">
                 <p class="social-text">Or Sign in with social platform</p>
                 <div class="social-media">
@@ -93,7 +105,7 @@
             </div>
         </div>
     </div>
-    <script src="/javascript/app.js"></script>
+    <script src="javascript/app.js"></script>
 </body>
 
 </html>
