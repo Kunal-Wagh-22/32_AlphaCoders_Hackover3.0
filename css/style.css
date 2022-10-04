@@ -1,3 +1,7 @@
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
+
 #Title{
     background-color: #FF0063;
     color: #66BFBF;
@@ -8,11 +12,8 @@ padding-left: 15%;
 padding-right: 15%;
 padding-bottom: 3%;
 }
-.navbar{
-   
-}
 .navbar-brand{
-    font-family: 'Ubuntu', sans-serif;
+
     font-size: 2.5rem;
 }
 .nav-item{
@@ -52,14 +53,13 @@ padding-bottom: 3%;
 
 .eventbg {
     background-color: #66BFBF;
-    height: 80vh;
+    height: 90vh;
     width: 25vw;
-    margin: 10% 15%;
+    margin: 5% 15%;
 }
 
 .eventimg {
     width: 50vw;
-    /* height: 70%; */
     margin-left: -25%;
 }
 
@@ -67,14 +67,20 @@ padding-bottom: 3%;
     border-radius: 25px;
 }
     
-/* .title-image{
-    text-align: center;
-    padding-bottom: 5%;
-    
+@media (max-width: 750px) {
+    .eventbg {
+        display: none;
+    }
+    #event{
+        /* width: 70%; */
+        margin: 0%;
+        justify-content: center;
+        width: 100vw;
+        /* height: 100vh; */
+    }
+    .eventimg {
+        width: 100vw;
+        /* height: 100vh; */
+        margin-left: 0%;
+    }
 }
-.title-image,img{
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    
-} */

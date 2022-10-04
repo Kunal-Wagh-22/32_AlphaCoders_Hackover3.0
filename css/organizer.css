@@ -1,0 +1,50 @@
+#organizer{
+    background-color: #FF0063;
+    color: #66BFBF;
+    font-family: 'ubuntu','sans-serif';
+}
+.container-fluid{
+padding-top: 3%;
+padding-left: 15%;
+padding-right: 15%;
+padding-bottom: 3%;
+}
+.navbar-brand{
+
+    font-size: 2.5rem;
+}
+.nav-item{
+    font-size: 20px ;
+    padding: 0 18px;
+    
+}
+.nav-item a{
+    color:white ;
+}
+.form{
+    padding: 5% 15% 5% 15%;
+    font-family: 'ubuntu','sans-serif';
+    
+}
+.button{
+    margin-left: 65%;
+}
+.button1{
+    margin-bottom: 15px;
+}
+.img1{
+    width:50%
+}
+.eventrow{
+    display: flex;
+    justify-content: space-between;
+}
+
+.event-list {
+    display: flex;
+    align-items: center;
+    padding: 0% 20%;
+}
+button:hover{
+    background-color:null ;
+}
