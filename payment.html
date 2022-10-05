@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./css/payment.css">
+    <script src="https://kit.fontawesome.com/a130581668.js" crossorigin="anonymous"></script>
+    
+    <title>Document</title>
+
+</head>
+<body>
+    <section id="Title">
+        <!-- Nav Bar -->
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-dark ">
+                <a class="navbar-brand" href="#">Ola Events</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto">
+                      <li class="nav-item ">
+                        <a class="nav-link active " href="#">Admin</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="#">Price</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link active" href="">Download</a>
+                    </li>
+                </ul>
+              </div>
+        </nav>
+    </div>
+    
+</section>
+
+
+
+
+
+<div class="container">
+    
+        <div class="col-12 mt-4">
+            <div class="card p-3">
+                <p class="mb-0 fw-bold h4">Payment Methods</p>
+            </div>
+        </div>
+        <div class="col-12">
+            <div class="card p-3">
+                <div class="card-body border p-0">
+                    <p>
+                        <a class="btn btn-primary w-100 h-100 d-flex align-items-center justify-content-between"
+                            data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                            aria-controls="collapseExample">
+                            <span class="fw-bold">PayPal</span>
+                            <span class="fab fa-cc-paypal">
+                            </span>
+                        </a>
+                    </p>
+                    <div class="collapse p-3 pt-0" id="collapseExample">
+                        <div class="row">
+                            <div class="col-8">
+                                <p class="h4 mb-0">Summary</p>
+                                <p class="mb-0"><span class="fw-bold">Event:</span><span class="c-pink">: Name of
+                                        event</span></p>
+                                <p class="mb-0"><span class="fw-bold">Price:</span><span
+                                        class="c-pink">: ₹150/-</span></p>
+                                <p class="mb-0">/* Description of event like what the event is about, the venue, 
+                                    date, day, time...*/</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card-body border p-0">
+                    <p>
+                        <a class="btn btn-primary p-2 w-100 h-100 d-flex align-items-center justify-content-between"
+                            data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="true"
+                            aria-controls="collapseExample">
+                            <span class="fw-bold">Credit Card</span>
+                            <span class="">
+                                <img src="https://www.freepnglogos.com/uploads/visa-logo-download-png-21.png" alt="" style="height:20px; width:50px; ">
+                                <img src="https://www.freepnglogos.com/uploads/mastercard-png/file-mastercard-logo-svg-wikimedia-commons-4.png"
+                            alt="" style="height:20px; width:50px; ">
+                            </span>
+                        </a>
+                    </p>
+                    <div class="collapse show p-3 pt-0" id="collapseExample">
+                        <div class="row">
+                            <div class="col-lg-5 mb-lg-0 mb-3">
+                                <p class="h4 mb-0">Summary</p>
+                                <p class="mb-0"><span class="fw-bold">Event:</span><span class="c-pink">: Name of
+                                        event</span>
+                                </p>
+                                <p class="mb-0">
+                                    <span class="fw-bold">Price:</span>
+                                    <span class="c-pink">:₹150/-</span>
+                                </p>
+                                <p class="mb-0">/* Description of event like what the event is about, the venue, 
+                                    date, day, time...*/</p>
+                            </div>
+                            <div class="col-lg-7">
+                                <form action="" class="form">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="form__div">
+                                                <input type="text" class="form-control" placeholder=" ">
+                                                <label for="" class="form__label">Card Number</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <div class="form__div">
+                                                <input type="text" class="form-control" placeholder=" ">
+                                                <label for="" class="form__label">MM / yy</label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-6">
+                                            <div class="form__div">
+                                                <input type="password" class="form-control" placeholder=" ">
+                                                <label for="" class="form__label">cvv code</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form__div">
+                                                <input type="text" class="form-control" placeholder=" ">
+                                                <label for="" class="form__label">name on the card</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="btn w-100 submit">Submit</div>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-12">
+            <button onclick="showAlert()" class="btn btn-primary payment">
+                Make Payment
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<section id="footer">
+    <footer class="text-center text-white" style="background-color: #EAF6F6; margin-top: 5%;">
+        <!-- Grid container -->
+        <div class="container p-4 pb-0">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+            <!-- Facebook -->
+            <a class="btn text-white btn-floating m-1"
+              style="background-color: #3b5998;"
+              href="#!"
+              role="button">
+              <i class="fab fa-facebook-f"></i></a>
+      
+            <!-- Twitter -->
+            <a class="btn text-white btn-floating m-1"
+              style="background-color: #55acee;"
+              href="#!"
+              role="button">
+              <i class="fab fa-twitter"></i></a>
+      
+            <!-- Google -->
+            <a class="btn text-white btn-floating m-1"
+              style="background-color: #dd4b39;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-google"></i
+            ></a>
+      
+            <!-- Instagram -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #ac2bac;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-instagram"></i></a>
+      
+            <!-- Linkedin -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #0082ca;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn text-white btn-floating m-1"
+              style="background-color: #333333;"
+              href="#!"
+              role="button"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center p-3" style="background-color:#66BFBF; ">
+          © 2020 Copyright:
+          <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        </div>
+        <!-- Copyright -->
+      </footer>
+</section>
+
+<script type="text/JavaScript">
+     function showAlert() {
+                alert("Your payment has been made. \nThank you");
+            }
+</script>
+
+</body>
+</html>

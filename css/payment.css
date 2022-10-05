@@ -1,0 +1,279 @@
+#Title{
+    background-color: #FF0063;
+    color: #66BFBF;
+}
+.container-fluid{
+padding-top: 3%;
+padding-left: 15%;
+padding-right: 15%;
+padding-bottom: 3%;
+}
+
+.navbar-brand{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 2.5rem;
+}
+.nav-item{
+    font-size: 20px ;
+    padding: 0 18px;
+    
+}
+.nav-item a{
+    color:white ;
+}
+.button{
+    display: flex;
+    justify-content: end;
+}
+.content{
+    padding-bottom: 5%;
+}
+.title-content{
+    display: flex;
+    flex-direction: column-reverse;
+    background-size: cover;
+    margin: 0 15% 0 15%;
+    height: 70vh;
+    padding: 3%;
+    background-image:url("/img/event.jpg");
+    border-radius: 25px;
+}
+
+.tbutton {
+    margin: 5px 10px;
+}
+
+#event {
+    display: flex;
+    align-items: center;
+}
+
+.eventbg {
+    background-color: #66BFBF;
+    height: 85vh;
+    width: 25vw;
+    margin: 5% 15%;
+}
+
+.eventimg {
+    width: 50vw;
+    margin-left: -30%;
+}
+
+.carousel-inner {
+    border-radius: 25px;
+}
+
+.event-img {
+    display: flex;
+    flex-direction: column-reverse;
+    padding: 6% 10%;
+    background-image: url("/img/event2.jpg");
+    background-size: cover;
+    color: white;
+    width: 60vw;
+    height: 60vh;
+}
+
+.event-img:hover {
+    filter: blur(10px);
+    transition: all 0.5s ease;
+}
+
+.join-event {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 3;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
+
+.event-title {
+    font-weight: bold;
+}
+    
+@media (max-width: 750px) {
+    .eventbg {
+        display: none;
+    }
+    #event{
+        /* width: 70%; */
+        margin: 0%;
+        justify-content: center;
+        width: 100vw;
+        /* height: 100vh; */
+    }
+    .eventimg {
+        width: 100vw;
+        /* height: 100vh; */
+        margin-left: 0%;
+    }
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif
+}
+
+.container {
+    margin: 30px auto;
+}
+
+.container .card {
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background: #fff;
+    border-radius: 0px;
+}
+
+body {
+    background: #eee
+}
+
+
+
+.btn.btn-primary {
+    background-color:#EAF6F6;
+    color: black;
+    box-shadow: none;
+    border: none;
+    font-size: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.submit{
+    background-color: #66BFBF;
+    color: white;
+}
+
+.submit:hover{
+    background-color: powderblue;
+    color: black;
+}
+.btn.btn-primary:focus {
+    box-shadow: none;
+}
+
+.container .card .img-box {
+    width: 80px;
+    height: 50px;
+}
+
+.container .card img {
+    width: 100%;
+    object-fit: fill;
+}
+
+.container .card .number {
+    font-size: 24px;
+}
+
+.container .card-body .btn.btn-primary .fab.fa-cc-paypal {
+    font-size: 32px;
+    color: #3333f7;
+}
+
+.fab.fa-cc-amex {
+    color: #1c6acf;
+    font-size: 32px;
+}
+
+.fab.fa-cc-mastercard {
+    font-size: 32px;
+    color: red;
+}
+
+.fab.fa-cc-discover {
+    font-size: 32px;
+    color: orange;
+}
+
+.c-pink {
+    color: #FF0063;
+}
+
+.box {
+    height: 40px;
+    width: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ddd;
+}
+
+.btn.btn-primary.payment {
+    background-color: #FF0063;
+    color: #fff;
+    border-radius: 0px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 24px;
+}
+
+.btn.btn-primary.payment:hover{
+    background-color: #d6276d;
+    color: black;
+}
+
+
+.form__div {
+    height: 50px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+.form-control {
+    width: 100%;
+    height: 45px;
+    font-size: 14px;
+    border: 1px solid #DADCE0;
+    border-radius: 0;
+    outline: none;
+    padding: 2px;
+    background: none;
+    z-index: 1;
+    box-shadow: none;
+}
+
+.form__label {
+    position: absolute;
+    left: 16px;
+    top: 10px;
+    background-color: #fff;
+    color: #80868B;
+    font-size: 16px;
+    transition: .3s;
+    text-transform: uppercase;
+}
+
+.form-control:focus+.form__label {
+    top: -8px;
+    left: 12px;
+    color: #1A73E8;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.form-control:not(:placeholder-shown).form-control:not(:focus)+.form__label {
+    top: -8px;
+    left: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    z-index: 10;
+}
+
+.form-control:focus {
+    border: 1.5px solid #1A73E8;
+    box-shadow: none;
+}
