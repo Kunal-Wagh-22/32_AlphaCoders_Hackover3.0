@@ -77,14 +77,28 @@ button:hover{
         padding: 10% 0px 0px 0px;
     }
     .img1{
-        width:100%;
+        width:60%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
         
     }
     .img2{
-        width: 100%;
-        margin-left: 0%;
+        margin: auto;
+        width: 40%;
+        display: flex;
+        justify-content: center;
+        
+    
     }
     .one{
         display: none;
     }
+    img{
+        align-items: center;
+    }
+  
+}
+body{
+    background-color: #EAF6F6;
 }

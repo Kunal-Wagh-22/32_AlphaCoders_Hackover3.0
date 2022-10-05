@@ -3,6 +3,9 @@
     color: #66BFBF;
     font-family: 'ubuntu','sans-serif';
 }
+body{
+    background-color:#EAF6F6;
+}
 .container-fluid{
 padding-top: 3%;
 padding-left: 15%;
@@ -35,5 +38,9 @@ body{
 }
 
 .card-header{
-    background-color:#FF0063 ;
+    background-color:#66BFBF ;
+    color:white
+}
+.card-body{
+    background-color: white;
 }

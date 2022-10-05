@@ -1,3 +1,6 @@
+input{
+    background-color: #EAF6F6;
+}
 #organizer_update{
     background-color: #FF0063;
     color: #66BFBF;
@@ -23,6 +26,6 @@ padding-bottom: 3%;
 }
 .form{
     padding: 5% 15% 5% 15%;
-    font-family: 'ubuntu','sans-serif';
+    font-family: 'ubuntu','sans-serif'
     
 }
