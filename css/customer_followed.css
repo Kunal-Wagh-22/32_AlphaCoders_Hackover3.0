@@ -39,12 +39,14 @@ padding-bottom: 3%;
 .img1{
     width:90%;
     height: 40%;
+   
     
 }
 .img2{
     width: 90%;
     height: 40%;
     margin-left: 30%;
+   
 }
 
 .event-list {
@@ -75,12 +77,18 @@ button:hover{
         padding: 10% 0px 0px 0px;
     }
     .img1{
+        display: flex;
+        justify-content: center;
         width:100%;
+        margin: auto;
         
     }
     .img2{
+        display: flex;
+        justify-content: center;
         width: 100%;
         margin-left: 0%;
+        margin: auto;
     }
     .one{
         display: none;
