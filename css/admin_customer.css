@@ -1,4 +1,4 @@
-#Admin{
+#admin_customer{
     background-color: #FF0063;
     color: #66BFBF;
     font-family: 'ubuntu','sans-serif';
@@ -21,19 +21,14 @@ padding-bottom: 3%;
 .nav-item a{
     color:white ;
 }
-body{
-    font-family: 'ubuntu','sans-serif';
-}
 
-#pricing{
-    padding: 100px;
-    text-align: center;
+#customer_info{
+    padding:5% 15% 5% 15%;
+    background-color: #FF0063;
 }
-
-.prising-col{
-    padding: 3% 2%;
+thead{
+   background-color: #66BFBF;
 }
-
-.card-header{
-    background-color:#FF0063 ;
+tr{
+    background-color:#EAF6F6;
 }
