@@ -21,3 +21,6 @@ padding-bottom: 3%;
 .nav-item a{
     color:white ;
 }
+body{
+    font-family: 'ubuntu','sans-serif';
+}
