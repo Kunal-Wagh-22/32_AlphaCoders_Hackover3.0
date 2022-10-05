@@ -97,3 +97,20 @@ button:hover{
 button{
     width: 200px;
 }
+body{
+    background-color: #EAF6F6;
+}
+img:hover {
+    filter: blur(10px);
+    transition: all 0.5s ease;
+}
+.event-date {
+    position: absolute;
+    color: white;
+    font-size: 30px;
+    bottom: 50%;
+    left: 22%;
+    z-index: 3;
+    visibility: hidden;
+    transition: all 0.5s ease;
+}
